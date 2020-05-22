@@ -29,3 +29,19 @@ function assets(){
 }
 add_action('wp_enqueue_scripts','assets');
 
+function sidebar(){
+    register_sidebar(
+        array(
+            'name' => 'Pie de pagina',
+            'id' => 'footer',
+            'description' => 'Zona de Widgets para pie de pagina',
+            'before_title' => '<p>',
+            'after_title' => '</>',
+            'before_widget' => '<div id="%1$s" class="%2$s">',
+            'after_widget' => '</div>'
+        )
+    );
+}
+
+add_action('widgets_init', 'sidebar');
+
