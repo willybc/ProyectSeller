@@ -21,3 +21,19 @@ footer p{margin:0;color:#fff}
 .lista-productos h4{font-weight:400}
 .lista-productos h4 a{color:#000}
 
+
+.dashicons{
+    display: contents;
+}
+
+.btn-1{
+    color: #fff;
+    background-color: #1EBA93;
+    border-color: #1EBA93;
+}
+
+.btn-2{
+    color: #fff;
+    background-color: #17CBD1;
+    border-color: #17CBD1;
+}
