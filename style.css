@@ -225,5 +225,8 @@ section.primary h2{
 section.success{
     background-color: #18bc9c;
     color: #fff;
-    }
+}
 
+.card-img{
+  font-size: 2em;
+}

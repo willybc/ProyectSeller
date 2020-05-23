@@ -15,7 +15,7 @@
                 <div class="intro-text">
                     <span class="name">ACCOUNTS</span>
                     <hr class="star-light">
-                    <p class="skills">Proporcionamos una variedad de cuentas baratas y de alta calidad y otras cuentas</p>
+                    <p class="skills">Proporcionamos una variedad de cuentas baratas de alta calidad y otras cuentas</p>
                 </div>
             </div>
         </div>
