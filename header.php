@@ -7,16 +7,17 @@
 </head>
 <body>
 
-<header>
+<header id="page-top">
     <div class="container">
-        <div class="row align-items-center">
-            <div class="col-4"> <h1>LOGO</h1></div>
-            <div class="col-8"> <nav> <?php wp_nav_menu( array( 'theme_location' => 'top_menu',
-                                                                'menu_class' => 'menu-principal',
-                                                                'container_class' => 'container-menu'));
-                                        ?>
-                                </nav> </div>
-
+        <div class="row">
+            <div class="col-lg-12">
+                <img class="img-responsive" src="http://ironsummitmedia.github.io/startbootstrap-freelancer/img/profile.png" alt="">
+                <div class="intro-text">
+                    <span class="name">ACCOUNTS</span>
+                    <hr class="star-light">
+                    <p class="skills">Proporcionamos una variedad de cuentas baratas y de alta calidad y otras cuentas</p>
+                </div>
+            </div>
         </div>
     </div>
 </header>
