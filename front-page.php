@@ -32,11 +32,11 @@
                     <figure>
                         <?php the_post_thumbnail('large'); ?>
                     </figure>
-                    <h4 class='my-3 text-center btn btn-lg btn-block btn-2'>
-                        <a href="<?php the_permalink(); ?>">
-                            <?php the_title();?>
-                        </a>
-                    </h4>
+
+                    <a href="<?php the_permalink(); ?>">
+                            <span class='my-3 text-center btn btn-lg btn-block btn-2'> <?php the_title();?>
+                    </a>
+            </span>
                 </div>
 
            <?php }
