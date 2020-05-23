@@ -10,11 +10,11 @@ License: GNU General Public Licence v2 or later
 a,h1,h2,h3,h4,li,p,span,ul{font-family:Montserrat}.attachment-large{max-width:100%;height:auto!important}
 h1{margin:50px 0;font-weight: 900;}
 ul{margin-bottom: 0px;}
-header{background-color:#294e63}
+header{background-color:#17CBD1}
 header nav li{list-style:none;display:inline-block;padding:0 15px}
 header nav li a{color:#fff;text-transform:uppercase}
 header nav li a:hover{color:#fff}
-footer{background-color:#1c3643;padding:10px 0}
+footer{background-color:rgb(15, 125, 129);padding:10px 0}
 footer{color:white}
 footer p{margin:0;color:#fff}
 .lista-productos h2{font-weight:900}
@@ -37,3 +37,89 @@ footer p{margin:0;color:#fff}
     background-color: #17CBD1;
     border-color: #17CBD1;
 }
+* {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  
+  
+  #notfound {
+    position: relative;
+    height: 100vh;
+    background-color: #222;
+  }
+  
+  #notfound .notfound {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+  
+  .notfound {
+    max-width: 460px;
+    width: 100%;
+    text-align: center;
+    line-height: 1.4;
+  }
+  
+  .notfound .notfound-404 {
+    height: 158px;
+    line-height: 153px;
+  }
+  
+  .notfound .notfound-404 h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #222;
+    font-size: 220px;
+    letter-spacing: 10px;
+    margin: 0px;
+    font-weight: 700;
+    text-shadow: 2px 2px 0px #c9c9c9, -2px -2px 0px #c9c9c9;
+  }
+  
+  .notfound .notfound-404 h1>span {
+    text-shadow: 2px 2px 0px #ffffff, -2px -2px 0px #ffffff, 0px 0px 8px #ffffff;
+  }
+  
+  .notfound p {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #c9c9c9;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 0px;
+    margin-bottom: 15px;
+  }
+  
+  .notfound a {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+    background: transparent;
+    color: #c9c9c9;
+    border: 2px solid #c9c9c9;
+    display: inline-block;
+    padding: 10px 25px;
+    font-weight: 700;
+    -webkit-transition: 0.2s all;
+    transition: 0.2s all;
+  }
+  
+  .notfound a:hover {
+    color: #ffab00;
+    border-color: #ffab00;
+  }
+  
+  @media only screen and (max-width: 480px) {
+    .notfound .notfound-404 {
+      height: 122px;
+      line-height: 122px;
+    }
+  
+    .notfound .notfound-404 h1 {
+        font-size: 122px;
+    }
+  }
